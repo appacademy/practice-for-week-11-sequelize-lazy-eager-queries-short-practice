@@ -26,7 +26,7 @@ executed.
 
 ## Step 1: Compare lazy vs eager loading of data
 
-Take a look at the route handler in __app.js__ for `GET /bands-lazy/:bandId. It 
+Take a look at the route handler in __app.js__ for `GET /bands-lazy/:bandId`. It 
 returns the details of a specific `Band`. It fetches the band record by primary 
 key, then fetches associated `Musicians` using the `getMusicians` method 
 provided by **Sequelize** from the `hasMany` association that has been set up in 
