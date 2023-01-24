@@ -41,7 +41,7 @@ constructed with the data that is to be returned and a JSON response is sent.
 > and examples of the methods provided by **Sequelize** associations.
 
 Take a look at the second route handler, `GET /bands-eager/:bandId`, that returns the
-exact same results as `GET /bands-lazy/:bandId. However, the way that this route
+exact same results as `GET /bands-lazy/:bandId`. However, the way that this route
 handler retrieves and compiles its returned data is different. The associated
 `Musician` data is eager loaded when the query to find a `Band` is executed. This is
 accomplished by *including* the `Musician` model with the query, then ordering the
