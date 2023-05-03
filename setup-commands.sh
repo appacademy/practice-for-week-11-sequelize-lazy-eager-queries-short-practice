@@ -24,3 +24,4 @@ sqlite3 db/dev.db "SELECT 'bandCount', count(id) FROM Bands;"
 sqlite3 db/dev.db "SELECT 'instrumentCount', count(id) FROM Instruments;"
 sqlite3 db/dev.db "SELECT 'musicianCount', count(id) FROM Musicians;"
 sqlite3 db/dev.db "SELECT 'musicianInstrumentCount', count(id) FROM MusicianInstruments;"
+
